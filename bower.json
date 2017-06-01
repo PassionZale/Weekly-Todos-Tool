@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "description": "y",
+  "main": "",
+  "authors": [
+    "y"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/PassionZale/Weekly-Todos-Tool",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "mdui": "^0.2.1",
+    "Ionicons": "ionicons#^2.0.1"
+  }
+}
