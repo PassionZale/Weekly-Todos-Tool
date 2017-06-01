@@ -1,6 +1,6 @@
-# y
+# Weekly Todos Tool
 
-> y
+> Weekly Todos Tool
 
 ## Build Setup
 

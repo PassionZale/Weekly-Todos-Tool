@@ -1,7 +1,7 @@
 <template>
     <div class="mdui-appbar">
         <div class="mdui-toolbar mdui-color-theme">
-            <a href="javascript:;" class="mdui-typo-headline">Weekly Todos Report</a>
+            <a href="javascript:;" class="mdui-typo-headline" style="font-weight: 300;font-style: italic;">Weekly Todos Tool</a>
             <div class="mdui-toolbar-spacer"></div>
             <a @click.prevent="changeMode" mdui-tooltip="{content: '夜间模式'}" class="mdui-btn mdui-btn-icon">
                 <i class="mdui-icon ion-eye-disabled"></i>
