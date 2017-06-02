@@ -1,14 +1,14 @@
-export const lionTodos = [
+export const LION_TODOS = [
     {
-        'title': '指定方案',
-        'data': []
+        'title': '制定方案',
+        'todos': []
     },
     {
         'title': '设计初稿',
-        'data': []
+        'todos': []
     },
     {
         'title': '协调调整',
-        'data': []
+        'todos': []
     },
 ];
