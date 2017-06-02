@@ -2,7 +2,8 @@
 
 > Weekly Report Tool
 
-[Weekly Todos Tool](http://wx1.sinaimg.cn/mw690/006OyqbNgy1fg6vv39gd0g31gs0rbtsp.gif "展示GIF图")
+![Weekly Todos Tool](http://wx1.sinaimg.cn/mw690/006OyqbNgy1fg6vv39gd0g31gs0rbtsp.gif "展示GIF图")
+[Weekly Todos Tool](http://todos.lovchun.com "Weekly Todos Tool")
 
 ## Build Setup
 
