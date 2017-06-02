@@ -1,6 +1,8 @@
 # Weekly Todos Tool
 
-> Weekly Todos Tool
+> Weekly Report Tool
+
+[Weekly Todos Tool](http://wx1.sinaimg.cn/mw690/006OyqbNgy1fg6vv39gd0g31gs0rbtsp.gif "展示GIF图")
 
 ## Build Setup
 
