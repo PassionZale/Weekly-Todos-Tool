@@ -33,6 +33,8 @@
                 <!-- 卡片的内容 -->
                 <div class="mdui-card-content">
                     <ul class="mdui-list">
+                        <li class="mdui-subheader">正在开发</li>
+                        <li class="mdui-list-item mdui-ripple">1、....</li>
                         <li class="mdui-subheader">完成开发</li>
                         <li class="mdui-list-item mdui-ripple">1、....</li>
                         <li class="mdui-subheader">测试通过</li>
