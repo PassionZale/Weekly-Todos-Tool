@@ -50,21 +50,21 @@
                 <h3>本周工作内容</h3>
                 <div v-for="item in template" track-by="$index">
                     <h4>{{item.title}}</h4>
-                    <ol v-show="item.todos.length">
-                        <li v-for="todo in item.todos" track-by="$index">
-                            {{todo}}
-                        </li>
-                    </ol>
+                    <div v-show="item.todos.length">
+                        <p v-for="todo in item.todos" track-by="$index">
+                            {{($index + 1) + '. ' + todo}}
+                        </p>
+                    </div>
                     <p v-else>暂无</p>
                 </div>
             </div>
             <div class="mdui-typo">
                 <h3>下周工作计划</h3>
-                <ol v-show="plans.length">
-                    <li v-for="item in plans" track-by="$index">
-                        {{item}}
-                    </li>
-                </ol>
+                <div v-show="plans.length">
+                    <p v-for="item in plans" track-by="$index">
+                        {{$index + '. ' + item}}
+                    </p>
+                </div>
                 <p v-else>暂无</p>
             </div>
         </div>
