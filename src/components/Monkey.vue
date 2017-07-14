@@ -62,7 +62,7 @@
                 <h3>下周工作计划</h3>
                 <div v-show="plans.length">
                     <p v-for="item in plans" track-by="$index">
-                        {{$index + '. ' + item}}
+                        {{($index + 1) + '. ' + item}}
                     </p>
                 </div>
                 <p v-else>暂无</p>
