@@ -1,15 +1,15 @@
 export default (router) => router.map({
     '/': {
         name: 'index',
-        component: require('./components/Index.vue'),
+        component: resolve => require(['./components/Index.vue'], resolve),
     },
     '/program-monkey': {
         name: 'program',
-        component: require('./components/Monkey.vue')
+        component: resolve => require(['./components/Monkey.vue'], resolve),
     },
     '/design-lion': {
         name: 'designer',
-        component: require('./components/Lion.vue')
+        component: resolve => require(['./components/Lion.vue'], resolve),
     }
 });
 

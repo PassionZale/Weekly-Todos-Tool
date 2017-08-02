@@ -6,7 +6,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'build.js'
+    // filename: 'build.js'
+    filename: '[name].js',
+    chunkFilename: '[name].[chunkhash:10].chunk.js',
   },
   resolveLoader: {
     root: path.join(__dirname, 'node_modules'),
