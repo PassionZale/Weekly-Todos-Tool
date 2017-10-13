@@ -44,7 +44,7 @@
                 </div>
             </div>
         </div>
-    
+
         <div class="mdui-col-xs-4 mdui-hoverable mdui-p-a-3">
             <div class="mdui-typo">
                 <h3>本周工作内容</h3>
@@ -52,6 +52,7 @@
                     <h4>{{item.title}}</h4>
                     <div v-show="item.todos.length">
                         <p v-for="todo in item.todos" track-by="$index">
+                            <!-- {{todo | serialize_index}} -->
                             {{($index + 1) + '. ' + todo}}
                         </p>
                     </div>
@@ -86,7 +87,7 @@ export default {
         }
     },
     computed: {
-        current_todos_data: function () {
+        current_todos_data: function() {
             if (this.current_todos_index > -1) {
                 return this.template[this.current_todos_index].todos;
             } else {

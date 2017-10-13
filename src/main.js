@@ -6,6 +6,8 @@ import App from './App.vue'
 Vue.config.devtools = true;
 Vue.use(VueRouter);
 
+Vue.filter('serialize_index', require('./filters/serialize_index'));
+
 // 创建一个路由实例
 const router = new VueRouter({
   history: false
