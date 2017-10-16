@@ -48,11 +48,11 @@
         <div class="mdui-col-xs-4 mdui-hoverable mdui-p-a-3">
             <div class="mdui-typo">
                 <h3>本周工作内容</h3>
-                <div v-for="item in template" track-by="$index">
+                <div v-for="(key,item) in template" track-by="$index">
                     <h4>{{item.title}}</h4>
                     <div v-show="item.todos.length">
-                        <p v-for="todo in item.todos" track-by="$index">
-                            {{($index + 1) + '. ' + todo}}
+                        <p v-for="(index,todo) in item.todos" track-by="$index">
+                            {{index | serialize_index template key}} {{todo}}
                         </p>
                     </div>
                     <p v-else>暂无</p>
